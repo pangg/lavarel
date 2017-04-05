@@ -17,3 +17,6 @@ Route::get('/', function () {
 
 /* 后台首页 */
 Route::get('/admin', 'AdminController@index');
+
+Route::get('/user/add', 'UserController@add');
+Route::post('/user/insert', 'UserController@insert');
