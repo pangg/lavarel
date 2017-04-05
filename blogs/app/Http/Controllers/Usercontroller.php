@@ -67,4 +67,12 @@ class Usercontroller extends Controller
         }
 
     }
+
+    /*
+     * 用户列表
+     * */
+    public function index(Request $request)
+    {
+        echo '124';
+    }
 }

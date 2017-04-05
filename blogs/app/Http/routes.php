@@ -20,3 +20,4 @@ Route::get('/admin', 'AdminController@index');
 
 Route::get('/user/add', 'UserController@add');
 Route::post('/user/insert', 'UserController@insert');
+Route::get('/user/index', 'Usercontroller@index');
